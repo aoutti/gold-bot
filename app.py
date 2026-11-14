@@ -22,8 +22,9 @@ def price_message():
     oz = gold_usd_per_ounce()
     g = oz / OUNCE_TO_GRAM
     return (
-        f"سعر الذهب الآن\n"
-        f"الأونصة: {oz:,.2f} دولار\n"
+        f"يا سيدي المحترم ويا قاهر البحار السبع.🥇\n"
+        f"سعر الذهب الآن🟡\n"
+        f"الأونصة: {oz:,.2f} دولار💵\n"
         f"الغرام (سعر رسمي): {g * RATE_OFFICIAL:,.0f} دج\n"
         f"الغرام (سوق موازية): {g * RATE_PARALLEL:,.0f} دج"
     )
